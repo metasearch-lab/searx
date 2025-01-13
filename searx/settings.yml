@@ -434,6 +434,23 @@ engines:
     engine: archlinux
     shortcut: al
 
+  - name: nixos wiki
+    engine: mediawiki
+    shortcut: nixw
+    base_url: https://wiki.nixos.org/
+    search_type: text
+    disabled: true
+    categories: [it, software wikis]
+
+  - name: nixos wiki unofficial
+    engine: mediawiki
+    shortcut: nixwu
+    base_url: https://nixos.wiki/
+    search_type: text
+    disabled: true
+    categories: [it, software wikis]
+    api_path: api.php
+
   - name: artic
     engine: artic
     shortcut: arc
